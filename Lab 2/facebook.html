@@ -4,47 +4,80 @@
         <meta charset="utf-8">
         <title>Making face-book</title>
             <style>
+
+
+                p {
+                    margin: 0;
+                }
+                .body {
+                    width: 100%;
+                }
+
+                .container {
+                    margin: 0 auto;
+                    padding: 20px 0;
+                    position: relative;
+                    width: 980px;
+                    display: flex;
+                    align-items: center;
+                    box-sizing: border-box;
+                    height: 96vh;
+                }
+
+                .info {
+                    width: 580px;
+                    padding-right: 32px;
+                    margin: 0;
+                }
+
+                .block {
+                    width: 368px;
+                    margin: 0;
+                }
+
+                .form {
+                    border-radius: 8px;
+                    background-color: #fff;
+                    margin: 40px 0 0;
+                    padding-bottom: 24px;
+                    padding-top: 10px;
+                    padding: 10px 10px 24px 10px;
+                    box-sizing: border-box;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1)
+                }
+
+
                 .picture{
                     justify-content: center;
-                    margin:100px;
-                    width: 44%;
-                    height: 50%;
-                    position: absolute;
-                    bottom:80px ;
-                    left: 40px;
+                    margin-left: -28px;
+                    margin-bottom: -12px;
+                    width: 320px;
                 }
                 body{
                     background-color:rgb(240, 242, 245);
+                    font-family: Helvetica;
                 }
                 .text{
-                    text-align: left;
-                    font:inherit;
-                    font-size: 1.5em;
-                    float:left;
-                    margin-top: 250px;
-                    margin-left: 300px;
+                    
+                    font-size: 1.8em;
+                    
                 }
                 fieldset{
                     background-color:#ffffff;
                 }
                 .main{
+                    box-sizing: border-box;
                     border-radius: 5px;
-                    box-shadow: 5px 5px 6px -7px;
-                    width: 320px;
-                    height: 270px;
                     padding: 10px 5px 20px 5px;
-                    margin: -10vh 850px;
-                    position: absolute;
-                    background-color:#ffffff;
-                    bottom: 300px;
                 }
                 input{
+                    box-sizing:border-box;
                     display: block;
                     background-color:#ffffff;
-                    margin: auto;
-                    border:1.5px solid rgb(200, 200, 200);
-                    width: 200px;
-                    padding: 10px 40px;
+                    border:1.8px solid rgb(200, 200, 200);
+                    width: 100%;
+                    padding: 10px 40px 10px 10px;
+                    margin: 12px 0;
                     border-radius: 5px;
                     text-align: center;
                     color: #000;
@@ -58,29 +91,43 @@
                     background-color:#1877f2;
                     color: white;
                     margin: auto;
-                    width: 283px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    height: 48px;
                     display: block;
-                    border-radius:5px;
-                    padding: 10px 0;
+                    border-radius:6px;
+                    padding: 0 16px;
                     font-weight: bold;
                     cursor:pointer;
+                    font-size: 20px;
                 }
                 .forget{
                     display: block;
-                    width: 200px;
+                    width: 100%;
+                    box-sizing: border-box;
                     margin: auto;
                     color:#1877f2;
-                    padding-left: 80px;
+                    text-align: center;
                     font-family: 'Segoe UI';
-                    font-weight: 400;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-decoration: none;
                 }
+
+                .forget:hover {
+                    text-decoration: underline;
+                }
+
                 .line{
-                    border-top:1px solid #222;
-                    opacity: 0.2;
+                    border-top:1px solid #dadde1;
+                    margin: 20px 0;
+
                 }
                 .butt{
-                    width: 180px;
-                    font-size: 14px;
+                    width: 240px;
+            
+                    font-size: 17px;
                     background-color:#42b72a;
                     text-align: center;
                 }
@@ -88,46 +135,39 @@
             </style>
     </head>
     <body>
-        <div class = text>
-        <p>
-            Facebook помогает вам всегда
-        <br>оставаться на связи и общаться со 
-        <br>своими знакомыми.
-        </p>
-        </div>
-        <div class = "container">
-        <div class = "picture"> <img src="images/facebook.svg" class ="picture"></div>
-        <form action = "">
-            <div class = main>
-            <fieldset>
-                <div class ="input">
-                <label for="Email">                    
-                </label>
-                <input
-                type ="email"
-                placeholder="Электронный адрес или номер телефона"
-                required
-                ><br>
+        <div class="body">
+            <div class="container">
+                <div class="info">
+                    <img class="picture" src="images/facebook.svg" alt="">
+                    <div class = text>
+                        <p>
+                            Facebook помогает вам всегда
+                        <br>оставаться на связи и общаться со 
+                        <br>своими знакомыми.
+                        </p>
+                    </div>
                 </div>
-                <div class = "input">
-                <label for="password">
-                    <input type="text"
-                    placeholder="Пароль"
-                    required>
-                </label>
+                <div class="block">
+                    <form class="form" action = "">
+                            <div class ="input">
+                                <input type ="email" placeholder="Электронный адрес или номер телефона">
+                            </div>
+                            <div class = "input">
+                                <input type ="password" placeholder="Пароль">
+                            </div>
+                            <button
+                            type = "submit">
+                            Вход</button><br>
+                            <a href ="" class="forget">Забыли пароль?</a>
+                            <div class="line"></div>
+                            <button class ="butt">Создать новый аккаунт</button>
+            
+                    </form>
+            
                 </div>
-                <button
-                type = "submit">
-                Вход</button><br>
-                <a href ="" class="forget">Забыли пароль?</a> <br>
-                <div class="line"></div> <br>
-                <button class ="butt">Создать новый аккаунт</button>
-
-              </div>
-            </fieldset>
-        </form>
-
+            </div>
         </div>
+    
     </body>
 
 
