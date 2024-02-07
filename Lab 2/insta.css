@@ -1,0 +1,158 @@
+.main{
+    display: flex;
+    font-family: sans-serif;
+    background-color:#fafafa;
+}
+.photo{
+    width: 65vh;
+    height: 95vh;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color:#fafafa;
+}
+
+.text{
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+.page{
+    width: 350px;
+    background: #fff;
+    padding-bottom: 25px;
+    border:1px solid rgb(219, 219, 219);
+}
+.title{
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: "Pacifico", cursive;
+}
+form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+form input{
+    margin-bottom: 5px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 3px;
+    outline: none;
+    background-color:#fafafa;
+}
+form input:focus{
+    border: 1px solid rgba(0,0,0,0.7);
+    background: #fafafa;
+}
+
+input[type = "text"], input[type = "password"]{
+    padding-left: 10px;
+    position: relative;
+    height: 35px;
+    font-size: 17px;
+}
+input::placeholder{
+    font-weight: normal;
+    font-size: 13px;
+    transition: 0.3s ease;
+}
+input:focus::placeholder{
+    position: absolute;
+    font-size: 10px;
+    transform: translateY(-13px);
+}
+
+form button{
+    border: none;
+    background:rgb( 0, 149, 246);
+    padding: 8px 0;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+form .option{
+    margin-top: 10px;
+    color: #b6b6d6;
+}
+
+form .option::before{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 1px;
+    background: #b6b6d6;
+    left: 0;
+    top: 94%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+form .option::after{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 1px;
+    background: #b6b6d6;
+    right: 0;
+    top: 94%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+.fblink{
+    margin-top:15px ;
+    width: 100%;
+}
+
+.fblink span{
+    font-size: 18px;
+    color: #021897;
+    
+}
+
+.fblink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #021897;
+
+}
+.forget-id{
+    margin: 15px;
+}
+.forget-id a{
+    text-decoration: none;
+    color: #025fd2;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.signup{
+    position: relative;
+    border:1px solid rgb(219, 219, 219);
+    width: 100%;
+    margin-top: 30px;
+    background-color:white;
+}
+.signup a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 4px;
+    color: #0095F6;
+}
