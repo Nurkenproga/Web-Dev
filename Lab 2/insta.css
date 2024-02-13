@@ -6,17 +6,18 @@
 .photo{
     width: 65vh;
     height: 95vh;
-    margin-left: 190px;
-    margin-top: 20px;
+    margin-left: 500px;
+    position: absolute;
 }
 
 .container{
-    display: flex;
+    position: absolute;
     text-align: center;
     min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     background-color:#fafafa;
+    margin-right: 500px;
 }
 
 .text{
@@ -39,7 +40,7 @@
 form{
     width: 75%;
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     position: relative;
     left: 50%;
     transform: translate(-50%);
