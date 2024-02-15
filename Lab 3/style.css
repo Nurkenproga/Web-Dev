@@ -8,8 +8,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-        height: 100vh;
-        width: 100vw;
+    height: 100vh;
+    width: 100vw;
 }
 .to-do-app{
     color:rgb(8,6,133);
@@ -30,23 +30,31 @@
     grid-template-columns: 4fr 1fr;
     gap: 20px;
 }
-.entered{
+.enterance {
     padding: 10px;
-    border-radius:5px;
-    border:1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid #ccc;
     font-size: 16px;
     outline: none;
+    flex: 1;
+}
+.add-list {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(34, 6, 136);
+    font-size: 16px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: .6;
+    pointer-events: none;
+    padding: 10px 20px;
+}
+.add-list.active{
+    opacity: 1;
+    pointer-events: all;
 }
 
-.add-list{
-    border:none;
-    border-radius: 5px;
-    background-color: rgb(34,6,136);
-    font-size: 16px;
-    outline: none;
-    color:#fff;
-    cursor: pointer;
-}
 .tasks{
     width: 100%;
     margin-top: 30px;
@@ -75,11 +83,11 @@
     display: flex;
     align-items:center;
     gap:10px;
-
-
-
+    color: rgb(8,6,133);
+    font-size: 18px;
+    cursor: pointer;
 }
-.item-btn i{
+.item-btn img{
     color: rgb(8,6,133);
     font-size: 18px;
     cursor: pointer;
