@@ -14,7 +14,8 @@ import { CategoryComponent } from './category/category.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      { path: '', component: CategoryComponent },
+      { path: 'categories/:categoryid', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent }
     ])
   ],
@@ -22,7 +23,8 @@ import { CategoryComponent } from './category/category.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CategoryComponent,
   ],
   bootstrap: [
     AppComponent

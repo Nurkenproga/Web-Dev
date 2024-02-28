@@ -1,2 +1,12 @@
-<p>category works!</p>
-<h1>WORK</h1>
+<div id="categories-container">
+    <div *ngFor="let category of categories" class="category" >
+        <h3>
+            <a [title]="category.name + ' details'" [routerLink]="['/categories', category.id]">
+                {{ category.name }}
+            </a>
+        </h3>
+    </div>
+    </div>
+    
+    
+    
