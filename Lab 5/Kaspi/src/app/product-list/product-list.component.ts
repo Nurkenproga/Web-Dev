@@ -40,8 +40,16 @@ export class ProductListComponent implements OnInit{
 
   likeProduct(productId: number){
     var product = this.products.find(p => p.id === productId);
-    if(product !== undefined){
+    if(product?.liked === false){
       product.likes++;
+      product.liked = true;
+
+    }
+    else{
+      if(product?.liked === true){
+        product.likes--;
+        product.liked = false;
+      }
     }
   }
 

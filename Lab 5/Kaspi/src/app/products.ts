@@ -12,6 +12,7 @@ export interface Product {
     categoryId: number;
     likes:number;
     link:string;
+    liked?: boolean;
   }
   
   export const products: Product[] = [
@@ -29,6 +30,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hc1/h65/83559848181790.png?format=gallery-medium',
       categoryId: 1,
       likes:0,
+
     },
     {
       id: 2,
