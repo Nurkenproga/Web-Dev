@@ -6,18 +6,18 @@ export interface Category {
   export const categories : Category[] = [
     {
       id: 1,
-      name: 'Серьги',
+      name: 'Телефоны',
     },
     {
       id: 2,
-      name: 'Комплект',
+      name: 'Электронные книги',
     },
     {
       id: 3,
-      name: 'Кольца',
+      name: 'смарт-часы',
     },
     {
       id: 4,
-      name: 'Цепочки',
+      name: 'наушники',
     },
   ];
