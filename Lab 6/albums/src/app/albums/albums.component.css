@@ -14,12 +14,8 @@ ul {
     align-items: center; 
   
   }
+
   
-  /* li:hover {
-    transform: scale(1.05);
-  } */
-  
-  /* Стили для ссылок внутри элементов списка */
   li a {
     text-decoration: none;
     color: #3498db;

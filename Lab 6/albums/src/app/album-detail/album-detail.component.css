@@ -1,4 +1,3 @@
-/* Общие стили для контейнера и текста загрузки */
 div {
     max-width: 600px;
     margin: 20px auto;
@@ -17,14 +16,12 @@ div {
     margin-top: 20px;
   }
   
-  /* Стили для заголовка */
   h2 {
     color: #3498db;
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  /* Стили для поля ввода и кнопки */
   input {
     flex: 1;
     padding: 8px;
@@ -32,7 +29,7 @@ div {
   }
   
   button {
-    background-color: #3498db; /* Цвет фона меню */
+    background-color: #3498db; 
     color: #fff;
     border: none;
     padding: 10px 20px;

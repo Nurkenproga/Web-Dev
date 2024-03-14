@@ -7,7 +7,7 @@ ul {
   
   li {
     float: left;
-    background-color: #3498db; /* Цвет фона меню */
+    background-color: #3498db;
 
   }
   
@@ -20,15 +20,14 @@ ul {
   }
   
   li a:hover {
-    background-color: #2980b9; /* Цвет фона при наведении */
+    background-color: #2980b9;
   }
   
-  /* Опционально: стили для активного пункта меню */
   li.active {
-    background-color: #2980b9; /* Цвет фона активного пункта */
+    background-color: #2980b9; 
   }
   
   li.active a {
-    color: white; /* Цвет текста активного пункта */
+    color: white; 
   }
   
