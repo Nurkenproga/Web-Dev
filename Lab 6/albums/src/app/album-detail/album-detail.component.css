@@ -24,13 +24,6 @@ div {
     margin-bottom: 10px;
   }
   
-  /* Стили для блока редактирования */
-  div > div {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-  }
-  
   /* Стили для поля ввода и кнопки */
   input {
     flex: 1;
@@ -39,7 +32,7 @@ div {
   }
   
   button {
-    background-color: #2ecc71;
+    background-color: #3498db; /* Цвет фона меню */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -51,10 +44,9 @@ div {
   }
   
   button:hover {
-    background-color: #27ae60;
+    background-color: #2f53e4;
   }
-  
-  /* Стили для кнопок навигации */
+
   button[routerLink] {
     display: inline-block;
     background-color: #3498db;
