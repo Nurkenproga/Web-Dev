@@ -30,6 +30,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hc1/h65/83559848181790.png?format=gallery-medium',
       categoryId: 1,
       likes:0,
+      liked: false,
 
     },
     {
@@ -46,6 +47,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h19/h85/64508108931102.jpg?format=gallery-medium',
       categoryId: 1,
       likes:0,
+      liked: false,
     },
     {
       id: 3,
@@ -61,6 +63,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h77/hb4/63998014586910.jpg?format=gallery-medium',
       categoryId: 1,
       likes:0,
+      liked: false,
     },
     {
       id: 4,
@@ -76,6 +79,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h06/h98/83874224799774.jpg?format=gallery-medium',
       categoryId: 3,
       likes:0,
+      liked: false,
     },
     {
       id: 5,
@@ -91,6 +95,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h23/h5b/84060360507422.png?format=gallery-medium  ',
       categoryId: 3,
       likes:0,
+      liked: false,
     },
     {
       id: 6,
@@ -106,6 +111,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h12/hc8/84594232688670.jpg?format=gallery-medium',
       categoryId: 4,
       likes:0,
+      liked: false,
     },
     {
       id: 7,
@@ -121,6 +127,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h31/hd7/64362668556318.jpg?format=gallery-medium',
       categoryId: 4,
       likes:0,
+      liked: false,
     },
     {
       id: 8,
@@ -136,6 +143,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hb7/h5e/64511113199646.jpg?format=gallery-medium',
       categoryId: 4,
       likes:0,
+      liked: false,
     },
     {
       id: 9,
@@ -151,6 +159,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h97/h0d/64141045628958.jpg?format=gallery-medium',
       categoryId: 4,
       likes:0,
+      liked: false,
     },
     {
       id: 10,
@@ -166,6 +175,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h64/hfe/64217007554590.jpg?format=gallery-medium',
       categoryId: 4,
       likes:0,
+      liked: false,
     },
     {
       id: 11,
@@ -181,6 +191,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h88/h5e/84373305294878.jpg?format=gallery-medium',
       categoryId: 3,
       likes:0,
+      liked: false,
     },
     {
       id: 12,
@@ -196,6 +207,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hc9/h47/64342261268510.jpg?format=gallery-medium',
       categoryId: 3,
       likes:0,
+      liked: false,
     },
     {
       id: 13,
@@ -211,6 +223,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h01/h99/64080677011486.jpg?format=gallery-medium',
       categoryId: 3,
       likes:0,
+      liked: false,
     },
     {
       id: 14,
@@ -226,6 +239,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h21/h45/64083958562846.jpg?format=gallery-medium',
       categoryId: 1,
       likes:0,
+      liked: false,
     },
     {
       id: 15,
@@ -241,6 +255,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h4d/hd9/63840728416286.jpg?format=gallery-medium',
       categoryId: 1,
       likes:0,
+      liked: false,
     },
     {
       id: 16,
@@ -256,6 +271,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/hf7/h83/65742545485854.jpg?format=gallery-medium',
       categoryId: 2,
       likes:0,
+      liked: false,
     },
     {
       id: 17,
@@ -271,6 +287,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h2e/he8/84390535331870.jpg?format=gallery-medium',
       categoryId: 2,
       likes:0,
+      liked: false,
     },
     {
       id: 18,
@@ -286,6 +303,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h4f/hb5/84467592888350.jpg?format=gallery-medium',
       categoryId: 2,
       likes:0,
+      liked: false,
     },
     {
       id: 19,
@@ -301,6 +319,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h81/h80/81808100818974.jpg?format=gallery-medium',
       categoryId: 2,
       likes:4,
+      liked: false,
     },
     {
       id: 20,
@@ -316,6 +335,7 @@ export interface Product {
       imageUrl: 'https://resources.cdn-kaspi.kz/img/m/p/h59/h81/68545460797470.jpg?format=gallery-medium',
       categoryId: 2,
       likes:0,
+      liked: false,
     },
 
   ];
