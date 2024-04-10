@@ -20,11 +20,11 @@ from api.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/companies/', companies),
+    path('api/companies/', company),
     path('api/companies/<int:id>/', show_company),
-    path('api/companies/<int:id>/', show_vacancies_of_company),
-    path('api/vacancies/', vacancies),
-    path('api/vacancies/<int:vacancies>', vacancy),
+    path('api/companies/<int:id>/vacancies', show_vacancies_of_company),
+    path('api/vacancies/', vacancy_list),
+    path('api/vacancies/<int:id>/', vacancy),
     path('api/vacancies/top_ten/', top_ten_vacancies)
 
 ]
